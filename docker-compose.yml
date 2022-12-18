@@ -6,6 +6,7 @@ services:
     depends_on:
       - nginx
   nginx:
+    image: nginx:1.22
     ports:
       - 80:80
       - 443:443
